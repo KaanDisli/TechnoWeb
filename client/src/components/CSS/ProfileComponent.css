@@ -1,0 +1,36 @@
+.profile-component {
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.profile-component h2 {
+    text-align: center;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+.messages-section {
+    margin-top: 20px;
+}
+
+.messages-section h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.message-item {
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+}
+
+.message-item p {
+    margin: 5px 0;
+    color: #34495e;
+}
+

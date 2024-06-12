@@ -1,0 +1,59 @@
+.admin-component {
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.admin-component h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.admin-component .user-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.admin-component .user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.admin-component .user-item:last-child {
+    border-bottom: none;
+}
+
+.admin-component button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-component button.delete {
+    background-color: #dc3545;
+}
+
+.admin-component button.validate {
+    background-color: #28a745;
+}
+
+.admin-component button.role-change {
+    background-color: #ffc107;
+}
+
+.admin-component button:hover {
+    opacity: 0.9;
+}
